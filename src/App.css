@@ -1,0 +1,38 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 120px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 80px;
+  color:darkgoldenrod;
+
+}
+
+.contador-numeros {
+  display: inline-block;
+  padding: 100px;
+  border-radius: 100%;
+  border: 20px solid white; /* Puedes ajustar el grosor y color del borde según tu preferencia */
+  margin:10%;
+  color: cadetblue;
+  border-color: darkgoldenrod;
+}
+.contenedorContador {
+  display: flexbox;
+  
+}
